@@ -1,0 +1,52 @@
+{
+  "currency": "USD",
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "instrument": "AAPL",
+      "side": "buy",
+      "quantity": 1000,
+      "decision_price": 189.8,
+      "arrival_price": 190.0,
+      "decision_time": "2026-02-10T14:29:00Z",
+      "arrival_time": "2026-02-10T14:30:00Z",
+      "end_price": 190.8,
+      "end_time": "2026-02-10T15:00:00Z",
+      "executions": [
+        {"venue": "XNAS", "quantity": 400, "price": 190.12, "fee": 1.2, "timestamp": "2026-02-10T14:34:12Z"},
+        {"venue": "BATS", "quantity": 350, "price": 190.18, "fee": 1.05, "timestamp": "2026-02-10T14:42:00Z"}
+      ]
+    },
+    {
+      "order_id": "ORD-1002",
+      "instrument": "MSFT",
+      "side": "sell",
+      "quantity": 800,
+      "decision_price": 420.2,
+      "arrival_price": 420.0,
+      "decision_time": "2026-02-10T15:00:00Z",
+      "arrival_time": "2026-02-10T15:01:00Z",
+      "end_price": 418.9,
+      "end_time": "2026-02-10T15:30:00Z",
+      "executions": [
+        {"venue": "XNAS", "quantity": 500, "price": 419.8, "fee": 1.5, "timestamp": "2026-02-10T15:06:15Z"},
+        {"venue": "NYSE", "quantity": 300, "price": 419.7, "fee": 0.9, "timestamp": "2026-02-10T15:17:45Z"}
+      ]
+    },
+    {
+      "order_id": "ORD-1003",
+      "instrument": "AAPL",
+      "side": "buy",
+      "quantity": 500,
+      "decision_price": 190.1,
+      "arrival_price": 190.15,
+      "decision_time": "2026-02-10T15:45:00Z",
+      "arrival_time": "2026-02-10T15:46:00Z",
+      "end_price": 189.9,
+      "end_time": "2026-02-10T16:00:00Z",
+      "executions": [
+        {"venue": "BATS", "quantity": 300, "price": 190.1, "fee": 0.9, "timestamp": "2026-02-10T15:52:00Z"}
+      ]
+    }
+  ]
+}
